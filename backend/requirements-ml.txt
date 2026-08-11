@@ -1,0 +1,12 @@
+# Optional heavyweight ML dependencies for the transformer-embedding backend.
+# Install these ONLY if you want semantic similarity powered by a sentence
+# -transformer model instead of the lightweight TF-IDF baseline:
+#
+#   pip install -r requirements-ml.txt
+#   python -m spacy download en_core_web_sm
+#
+# The application detects whether these are present and falls back to TF-IDF
+# automatically if they are not, so they are genuinely optional.
+
+sentence-transformers==3.3.1   # MiniLM sentence embeddings (pulls in torch)
+spacy==3.8.3                   # tokenisation + named-entity recognition (name/org detection)

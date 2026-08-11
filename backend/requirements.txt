@@ -1,0 +1,19 @@
+# Core runtime dependencies — kept intentionally light so the API runs
+# anywhere without heavyweight ML frameworks. The semantic layer works with
+# scikit-learn's TF-IDF out of the box; install requirements-ml.txt to add
+# transformer embeddings.
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20        # multipart/form-data parsing for file uploads
+pydantic==2.11.10
+pydantic-settings==2.7.1        # typed settings loaded from environment / .env
+python-dotenv==1.0.1
+
+pdfplumber==0.11.5              # reliable PDF text extraction
+scikit-learn==1.6.1            # TF-IDF vectoriser + cosine similarity (baseline semantic engine)
+numpy==2.2.1
+
+SQLAlchemy==2.0.36             # optional analysis-history persistence (SQLite/Postgres)
+psycopg[binary]==3.2.3         # PostgreSQL driver (only used when DATABASE_URL is Postgres)
+httpx==0.28.1                  # provider-agnostic HTTP client for the LLM layer

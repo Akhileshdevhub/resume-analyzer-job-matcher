@@ -1,0 +1,5 @@
+# Development & test dependencies.
+-r requirements.txt
+
+pytest==8.3.4
+reportlab==4.2.5   # used by scripts/ to generate synthetic sample resume PDFs
