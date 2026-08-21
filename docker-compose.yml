@@ -1,0 +1,55 @@
+# Full stack: PostgreSQL + FastAPI backend + nginx-served React frontend.
+#
+#   docker compose up --build
+#
+# Then open http://localhost:8080. The frontend proxies /api to the backend, so
+# no CORS or API-base configuration is needed for local use.
+#
+# LLM is optional: export LLM_PROVIDER / LLM_MODEL / LLM_API_KEY in your shell
+# (or a .env file next to this one) before `up` to enable the LLM features.
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: resume
+      POSTGRES_PASSWORD: resume
+      POSTGRES_DB: resume_matcher
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U resume"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      # Set INSTALL_ML: "true" to bake in transformer embeddings (larger image).
+      args:
+        INSTALL_ML: "false"
+    environment:
+      DATABASE_URL: postgresql+psycopg://resume:resume@db:5432/resume_matcher
+      CORS_ORIGINS: http://localhost:8080
+      SEMANTIC_BACKEND: auto
+      ENABLE_HISTORY: "true"
+      LLM_PROVIDER: ${LLM_PROVIDER:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+volumes:
+  pgdata:
