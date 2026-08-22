@@ -1,0 +1,21 @@
+Backend Engineer
+
+About the role
+Join our platform team to build the APIs and services behind our product.
+
+Required qualifications
+- Proficiency in at least one backend language (Java, Python, or Go).
+- Strong experience designing and building REST APIs.
+- Solid SQL and relational database skills (PostgreSQL preferred).
+- Experience with Docker and containerised deployments.
+
+Preferred qualifications
+- Experience with AWS or another major cloud provider.
+- Familiarity with Kubernetes.
+- Experience with caching systems such as Redis.
+- Exposure to message queues (Kafka, RabbitMQ).
+
+Responsibilities
+- Design, build, and maintain backend services and APIs.
+- Own data models and database performance.
+- Deploy and operate services in the cloud.

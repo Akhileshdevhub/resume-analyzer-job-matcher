@@ -1,0 +1,23 @@
+Machine Learning Engineer (Entry Level)
+
+About the role
+We are looking for an early-career ML engineer to help build and ship models
+that power our product. You will work across the stack, from data preparation to
+serving models in production.
+
+Required qualifications
+- Strong programming skills in Python.
+- Solid understanding of machine learning fundamentals and scikit-learn.
+- Experience with deep learning frameworks such as PyTorch or TensorFlow.
+- Comfortable with SQL for data extraction.
+- Experience building or consuming REST APIs.
+
+Preferred qualifications
+- Experience deploying models with Docker.
+- Familiarity with a cloud platform (AWS, GCP, or Azure).
+- Exposure to MLOps tools and model monitoring.
+
+Responsibilities
+- Prepare datasets, train and evaluate models, and iterate on model quality.
+- Package models behind APIs and collaborate with backend engineers.
+- Write clean, tested, maintainable Python code.

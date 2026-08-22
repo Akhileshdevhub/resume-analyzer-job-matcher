@@ -1,0 +1,31 @@
+Priya Nair
+priya.nair@example.com | +91 91234 56789 | github.com/priyanair
+
+OBJECTIVE
+Backend engineer who enjoys building reliable APIs and data-heavy services.
+
+EDUCATION
+B.E., Information Technology — University of Pune
+2021 – 2025 | CGPA: 8.9/10
+
+TECHNICAL SKILLS
+Languages: Java, Python, SQL
+Frameworks: Spring Boot, Hibernate
+Cloud & DevOps: AWS, Docker, Kubernetes
+Databases: PostgreSQL, MongoDB, Redis
+
+EXPERIENCE
+Backend Engineering Intern — E-commerce Company (2024)
+- Designed and shipped REST endpoints in Spring Boot backed by PostgreSQL.
+- Containerised services with Docker and deployed to AWS ECS.
+
+PROJECTS
+Distributed URL Shortener
+- Built a horizontally scalable URL shortener with Redis caching and a
+  PostgreSQL backing store, deployed on AWS behind a load balancer.
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner
+
+ACHIEVEMENTS
+Open-source contributor to a popular Java HTTP client library.

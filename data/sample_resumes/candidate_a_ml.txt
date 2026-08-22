@@ -1,0 +1,36 @@
+Aarav Sharma
+aarav.sharma@example.com | +91 98765 43210 | github.com/aaravsharma | linkedin.com/in/aaravsharma
+
+SUMMARY
+Final-year Computer Science student focused on machine learning and backend
+engineering. Comfortable taking a model from a notebook to a deployed API.
+
+EDUCATION
+B.Tech, Computer Science and Engineering — National Institute of Technology
+2022 – 2026 | CGPA: 8.6/10
+
+TECHNICAL SKILLS
+Languages: Python, C++, SQL
+Machine Learning: scikit-learn, PyTorch, pandas, NumPy
+Backend: FastAPI, REST APIs
+Tools: Git, Linux, Jupyter
+
+EXPERIENCE
+Machine Learning Intern — Fintech Startup (Summer 2025)
+- Built a credit-risk classification model in scikit-learn, improving recall on
+  the minority class through resampling and threshold tuning.
+- Exposed the model behind a FastAPI service consumed by the web team.
+
+PROJECTS
+Resume-to-Job Matcher
+- Built an NLP pipeline that extracts skills from resumes and scores them against
+  job descriptions using TF-IDF and cosine similarity.
+Handwritten Digit Classifier
+- Trained a convolutional neural network in PyTorch on MNIST, reaching ~99%
+  test accuracy.
+
+CERTIFICATIONS
+Machine Learning Specialization — Coursera
+
+ACHIEVEMENTS
+Finalist, inter-college hackathon (2024).
