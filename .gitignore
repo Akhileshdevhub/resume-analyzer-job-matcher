@@ -46,3 +46,6 @@ Thumbs.db
 
 # PDF build intermediate
 docs/_guide_build.html
+
+# TypeScript incremental build info
+*.tsbuildinfo
