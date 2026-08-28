@@ -67,7 +67,7 @@ TITLE_HTML = """
     question bank.
   </div>
   <div style="font-size: 10pt; color:#94a3b8; margin-top: 40px;">
-    Portfolio project by Ayush
+    Portfolio project by Akhilesh
   </div>
 </div>
 """
