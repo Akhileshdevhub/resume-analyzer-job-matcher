@@ -287,5 +287,5 @@ checklist in [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
 
 ## Author & license
 
-Built by **Ayush** as a portfolio project. Licensed under the MIT License — see
+Built by **Akhilesh** as a portfolio project. Licensed under the MIT License — see
 [`LICENSE`](LICENSE).
