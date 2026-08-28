@@ -162,7 +162,7 @@ skills earn partial credit. Details and the calibration rationale are in
   and explanations — always fed only real pipeline data to avoid hallucination.
 
 A concept-by-concept teaching guide is in [`docs/CONCEPTS.md`](docs/CONCEPTS.md),
-and a full interview guide is in `docs/INTERVIEW_GUIDE.md` (also as a PDF).
+and a full interview guide is in `docs/INTERVIEW_GUIDE.md`.
 
 ## Tech stack
 
